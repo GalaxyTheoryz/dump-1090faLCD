@@ -22,8 +22,8 @@ while True:
     data = json.loads(data_str)
 
     #count aircrafts which have a flight codes for aircraft in data'aircraft']:
-      if "flight" in aircraft:
-         no_of_aircrafts +=1
+    if "flight" in aircraft:
+       no_of_aircrafts +=1
 
     #calculate messages/s      
     now=data'now']
